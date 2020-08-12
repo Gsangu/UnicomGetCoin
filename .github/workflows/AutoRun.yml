@@ -1,11 +1,11 @@
 name: AutoRun
 
 on:
-  push:
-    branches: 
-      - master
-  watch:
-    types: started
+  #push:
+    #branches: 
+      #- master
+  #watch:
+    #types: started
   schedule:
     #格尼尼治时间22：11，东八区北京时间6：11
     - cron: 11 22 * * *
