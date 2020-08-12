@@ -6,7 +6,6 @@ import http.cookiejar
 import json
 import os
 import sys
-import time
 import urllib.request as urllib2
 import ssl
 import urllib
