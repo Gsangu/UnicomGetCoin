@@ -22,14 +22,14 @@ jobs:
           sudo -E apt-get -yqq install python3
       - name: Download git
         run: |
-          git clone https://gitee.com/qiuyuebaijxw/AutoDailyCP
-          mv ./AutoDailyCP/* ./
+          git clone https://gitee.com/qiuyuebaijxw/UnicomAutoGetCoin
+          mv ./UnicomAutoGetCoin/* ./
       - name: Install extensions
         run: |
           pip3 install setuptools
           pip3 install -r requirements.txt
       - name: Run program
         env:
-
+          Secrets: ${{ secrets.Secrets }}
         run: |
-          python3 DailyCP.py 
+          python3 UnicomAutoGetCoin.py ${Secrets}
