@@ -1,12 +1,13 @@
 name: AutoRun
 
 on:
-  #push:
-    #branches: 
-      #- master
-  #watch:
-    #types: started
+  push:
+    branches: 
+      - master
+  watch:
+    types: started
   schedule:
+    #格尼尼治时间22：11，东八区北京时间6：11
     - cron: 11 22 * * *
 
 jobs:
@@ -22,14 +23,12 @@ jobs:
           sudo -E apt-get -yqq install python3
       - name: Download git
         run: |
-          git clone https://gitee.com/qiuyuebaijxw/UnicomAutoGetCoin
-          mv ./UnicomAutoGetCoin/* ./
+          git clone http://git网址.com
+          mv ./UnicomGetCoin/* ./
       - name: Install extensions
         run: |
           pip3 install setuptools
           pip3 install -r requirements.txt
       - name: Run program
-        #env:
-          #Secrets: ${{ secrets.Secrets }}
         run: |
           python3 UnicomAutoGetCoin.py
