@@ -32,3 +32,4 @@ jobs:
       - name: Run program
         run: |
           python3 UnicomAutoGetCoin.py
+
