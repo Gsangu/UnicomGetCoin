@@ -23,7 +23,7 @@ jobs:
           sudo -E apt-get -yqq install python3
       - name: Download git
         run: |
-          git clone http://git网址.com
+          git clone https://github.com/tygemu/UnicomGetCoin
           mv ./UnicomGetCoin/* ./
       - name: Install extensions
         run: |
