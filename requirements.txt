@@ -1,6 +1,4 @@
-http.cookiejar
 json
-time
 urllib
 urllib2
 datetime
