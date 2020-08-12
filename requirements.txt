@@ -1,5 +1,3 @@
-urllib
-urllib2
 datetime
 requests
 ssl
