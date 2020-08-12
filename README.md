@@ -14,7 +14,7 @@
 
         首先fork该项目，然后按照 “一、”中的操作抓包修改py文件
   
-         接着前往.github/workflows/AutoRun.yml文件中第26行的网址改为你fork之后的git网址。
+        接着前往.github/workflows/AutoRun.yml文件中第26行的网址改为你fork之后的git网址。
  
  #抓包内容
  
