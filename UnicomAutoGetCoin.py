@@ -23,7 +23,7 @@ class Qiandao():
         urllib2.install_opener(opener)
 
 
-    def sign(self,data,useless):
+    def sign(self,data):
         global a
         headers = {
             'Host': 'm.client.10010.com',
@@ -65,4 +65,4 @@ if __name__ == '__main__':
 
     data = timestamp+"&simCount=1&version=iphone_c@7.0403&mobile=aMawi%2B3MkY4NRaqS7QTmYi8TjvW8K9wNN%2FQKGunt%2BfMXVOzLBYy4SXVKpgmzNpRHEAYhXnvuOAnsR%2FavuhMmixJ8tvEY0XGOYRW%2BzQWjitbpdU%2BFEGsy1hCbhNvgDSiB6PNyO2atgasvd7L31G1z7S9LTDThgR0%2Fx2unpy1J440%3D&netWay=4G&token_online=&appId=d599e6c4238cb46a76affdd536358ebc3b008adeb7a0be09a9aae646ec829d2fb382ca25f1581cf840cbcdbfe0b57755f2165c6ee223c0734de392497ba30b0c28979bbed7cfcf836234e690b7f7ee10e8ecfff5d45ff54bb5e2b9bae924e5cc&deviceId=9927387fe8e271391ac409610cfd22e54948be639c61ee78ce08f2acbe823a1c&isRemberPwd=false&pip=10.99.16.240&password=DGLHJeUJy4SKFG0N8EODC0JbtgbRKSfnICwxZ0ZgRkRElDlERJQ%2Fq9dcE3vzf%2Bv6h7NFIAzjO4O%2Bx9R8vp3mt1TaiLb6Q9LdPtTntcwHAH9qEFa%2FQbpFTggwuyjmC0vswD2J7wwNZkZs0M0P34n%2FUNgf%2FGiGRBvD3gpYo%2FYL1uU%3D&deviceOS=13.6&deviceBrand=iphone&deviceModel=iPhone&remark4=&keyVersion=1&deviceCode=FE0172BD-1BF5-4774-BC31-DD77360C3214"
 
-    user.sign(data,sys.argv[0])
+    user.sign(data)
