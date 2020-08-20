@@ -52,8 +52,8 @@ class Qiandao():
         req4 = urllib2.Request("https://act.10010.com/SigninApp/signin/daySign", "btnPouplePost".encode('utf-8'))
         if urllib2.urlopen(req4).getcode() == 200:
             print('daySign success!')
-        req5 = urllib2.Request("https://act.10010.com/SigninApp/signin/getGoldTotal")
-        print( ' coin: ' + urllib2.urlopen(req4).read().decode('utf-8'))
+        req5 = urllib2.Request("https://act.10010.com/SigninApp/signin/getIntegral")
+        print( ' 积分情况: ' + urllib2.urlopen(req4).read().decode('utf-8'))
 
 
 if __name__ == '__main__':
