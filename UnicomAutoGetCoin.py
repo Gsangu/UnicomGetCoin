@@ -62,5 +62,5 @@ if __name__ == '__main__':
 
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    data = timestamp+"XXXXXXXXXXXX双引号中的内容换成抓包的结果reqtime=xxxx-xx-xx xx:xx:xx后面的内容XXXXXXXXXXX"
+    data = timestamp+"XXXXXXXXXXX双引号中的内容换成抓包的结果reqtime=xxxx-xx-xx xx:xx:xx后面的内容XXXXXXXXXXX"
     user.sign(data)
