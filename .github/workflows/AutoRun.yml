@@ -29,3 +29,4 @@ jobs:
            cookie: ${{ secrets.COOKIE }}
         run: |
           python3 UnicomAutoGetCoin.py ${cookie}
+          
