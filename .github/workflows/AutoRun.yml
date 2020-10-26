@@ -7,7 +7,7 @@ on:
   #watch:
     #types: started
   schedule:
-    #格尼尼治时间22：11，东八区北京时间6：11
+    #格林尼治时间22：11，东八区北京时间6：11
     - cron: 11 22 * * *
 
 jobs:
@@ -25,5 +25,7 @@ jobs:
         run: |
           pip3 install setuptools
       - name: Run program
+        env:
+           cookie: ${{ secrets.COOKIE }}
         run: |
-          python3 UnicomAutoGetCoin.py
+          python3 UnicomAutoGetCoin.py ${cookie}
