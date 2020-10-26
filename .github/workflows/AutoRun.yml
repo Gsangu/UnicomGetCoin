@@ -17,10 +17,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - name: Install python3
-        run: |
-          sudo -E apt-get -yqq update
-          sudo -E apt-get -yqq install python3
       - name: Install extensions
         run: |
           pip3 install setuptools
