@@ -28,7 +28,7 @@
     
     具体内容见下图
     
-   ![Image Text](https://github.com/QiuYueBaiJXW/UnicomGetCoin/blob/master/57FC8203-73BE-416A-916D-6CA1AA8ADF1C.jpeg?raw=true)
+   ![Image Text](https://github.com/QiuYueBaiJXW/UnicomGetCoin/blob/master/Photo/A86CC0F6-E719-47C2-9087-AA428FC88C00.jpeg?raw=true)
   
   
   
