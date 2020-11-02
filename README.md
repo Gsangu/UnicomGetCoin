@@ -24,7 +24,11 @@
     
     手机营业厅退出登陆，开启抓包软件，登录手机营业厅
     
-    查找网址为 https://m.client.10010.com/mobileService/login.htm 的记录，找到请求内容将reqtime后面的内容按要求填入py文件。
+    查找网址为 https://m.client.10010.com/mobileService/login.htm 的记录，找到请求文本，将reqtime后面的内容按要求填入py文件。
+    
+    具体内容见下图
+    
+    ![Image Text](https://github.com/QiuYueBaiJXW/UnicomGetCoin/blob/master/57FC8203-73BE-416A-916D-6CA1AA8ADF1C.jpeg?raw=true)
     
  #无限期To Do
  
